@@ -1,0 +1,26 @@
+.header {
+    position: relative;
+    z-index: 2;
+}
+
+.header__block {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 100%;
+    max-width: 304px;
+    height: 72px;
+    padding: 0 8px;
+    margin: 0 auto;
+    background-color: $primary-white-color;
+    border-radius: 0px 0px 8px 8px;
+}
+
+.header__icon {
+    display: inline-block;
+}
+
+.header__menu-icon {
+    display: inline-block;
+    margin-left: 25px;
+}
